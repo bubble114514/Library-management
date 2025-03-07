@@ -1,4 +1,5 @@
 <template>
+<!--  新增-->
   <div style="width: 80%">
     <h2 style="margin-bottom: 30px">新增管理员</h2>
     <el-form :model="form" status-icon :rules="rules" ref="ruleForm" style="width: 80%" label-width="120px">
