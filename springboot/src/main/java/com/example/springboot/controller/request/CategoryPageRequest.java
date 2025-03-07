@@ -1,4 +1,8 @@
 package com.example.springboot.controller.request;
 
-public class CategoryPageRequest {
+import lombok.Data;
+
+@Data
+public class CategoryPageRequest extends BaseRequest {
+    private String name;
 }

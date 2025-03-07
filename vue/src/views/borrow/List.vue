@@ -1,34 +1,45 @@
 <template>
   <div>
     <div>
-      <el-input style="width: 240px;margin-bottom: 15px" placeholder="请输入图书名称" v-model="params.name"></el-input>
-      <el-input style="width: 240px;margin-bottom: 15px" placeholder="请输入图书标准码" v-model="params.bookNo"></el-input>
+      <el-input style="width: 240px;margin-bottom: 15px" placeholder="请输入图书名称"
+                v-model="params.bookName"></el-input>
+      <el-input style="width: 240px;margin-bottom: 15px" placeholder="请输入图书标准码"
+                v-model="params.bookNo"></el-input>
+      <el-input style="width: 240px;margin-bottom: 15px" placeholder="请输入用户名称"
+                v-model="params.userName"></el-input>
       <el-button style="margin-left: 5px" type="primary" @click="load"><i class="el-icon-search"></i>搜索</el-button>
       <el-button style="margin-left: 5px" type="warning" @click="reset"><i class="el-icon-refresh"></i>重置</el-button>
     </div>
 
     <div>
       <el-table :data="tableData" stripe v-if="dataLoaded" row-key="id" default-expand-all>
-        <el-table-column prop="id" label="编号" width="80"></el-table-column>
-        <el-table-column prop="name" label="图书名称"></el-table-column>
-        <el-table-column prop="description" label="描述" width="200"></el-table-column>
-        <el-table-column prop="publishDate" label="出版日期"></el-table-column>
-        <el-table-column prop="author" label="作者"></el-table-column>
-        <el-table-column prop="publisher" label="出版社"></el-table-column>
-        <el-table-column prop="category" label="分类"></el-table-column>
-        <el-table-column prop="bookNo" label="图书标准码"></el-table-column>
-        <el-table-column prop="cover" label="封面" width="150">
+        <el-table-column prop="id" label="编号" width="50" align="center"></el-table-column>
+        <el-table-column prop="bookName" label="图书名称" align="center"></el-table-column>
+        <el-table-column prop="bookNo" label="图书标准码" align="center" width="100px"></el-table-column>
+        <el-table-column prop="userId" label="会员码" align="center" width="100px"></el-table-column>
+        <el-table-column prop="userName" label="用户名称" width="80px" align="center"></el-table-column>
+        <el-table-column prop="userPhone" label="用户联系方式" width="110px" align="center"></el-table-column>
+        <el-table-column prop="score" label="所用积分" width="80px" align="center"></el-table-column>
+        <el-table-column prop="status" label="借出状态" width="80px" align="center"></el-table-column>
+        <el-table-column prop="days" label="借出天数" width="80px" align="center"></el-table-column>
+        <el-table-column prop="createtime" label="借书日期" width="100px" align="center"></el-table-column>
+        <el-table-column prop="returnDate" label="归还日期" width="100px" align="center"></el-table-column>
+        <el-table-column prop="note" label="到期提醒" width="100px" align="center">
           <template v-slot="scope">
-            <el-image :src="scope.row.cover" :preview-src-list="[scope.row.cover]" style="width: 80px;height: 80px"></el-image>
+            <el-tag type="success" v-if="scope.row.note === '正常'"> {{ scope.row.note }}</el-tag>
+            <el-tag type="primary" v-if="scope.row.note === '即将到期'">{{ scope.row.note }}</el-tag>
+            <el-tag type="warning" v-if="scope.row.note === '已到期'">{{ scope.row.note }}</el-tag>
+            <el-tag type="danger" v-if="scope.row.note === '已超期'">{{ scope.row.note }}</el-tag>
           </template>
         </el-table-column>
-        <el-table-column prop="createtime" label="创建时间"></el-table-column>
-        <el-table-column prop="updatetime" label="更新时间"></el-table-column>
-
-        <el-table-column label="操作" width="150">
+        <el-table-column prop="note" label="管理" width="80" align="center">
           <template v-slot="scope">
-            <!-- scope.row就是当前行数据 -->
-            <el-button type="primary" @click="$router.push('/editBook?id=' + scope.row.id)">编辑</el-button>
+            <el-button type="primary" v-if="scope.row.status === '已借出'" @click="returnBooks(scope.row)">还书</el-button>
+          </template>
+        </el-table-column>
+
+        <el-table-column label="操作" width="100" align="center">
+          <template v-slot="scope">
             <el-popconfirm
                 title="确定删除吗？"
                 @confirm="del(scope.row.id)"
@@ -62,7 +73,7 @@ import request from '@/utils/request';
 import Cookies from "js-cookie";
 
 export default {
-  name: 'BookList',
+  name: 'BorrowList',
 
   data() {
     return {
@@ -76,15 +87,9 @@ export default {
         pageSize: 10,
       },
       searchName: '',
-      searchBookNo:'',
+      searchBookNo: '',
       dataLoaded: false,
 
-      rules: {
-        name: [
-          {required: true, message: '请输入图书名称', trigger: 'blur'},
-        ],
-
-      },
     };
   },
   created() {
@@ -93,7 +98,7 @@ export default {
   methods: {
 
     load() {
-      request.get('/book/page', {
+      request.get('/borrow/page', {
         params: this.params
       }).then(res => {
         if (res && res.code === '200') {
@@ -113,9 +118,9 @@ export default {
     },
     reset() {
       this.params = {
-        username: '',
-        phone: '',
-        email: '',
+        bookName: '',
+        bookNo: '',
+        userName: '',
         pageNum: 1,
         pageSize: 10
       };
@@ -124,7 +129,7 @@ export default {
       this.load();
     },
     del(id) {
-      request.delete("/book/delete/" + id).then((res) => {
+      request.delete("/borrow/delete/" + id).then((res) => {
         if (res.code === '200') {
           this.$notify.success("删除成功");
           this.load(); // 重新加载数据
@@ -136,6 +141,16 @@ export default {
         console.error('Delete failed:', error);
       });
     },
+    returnBooks(row) {
+      request.post('/borrow/saveRetur', row).then((res) => {
+        if (res.code === '200') {
+          this.$notify.success("还书成功");
+          this.load(); // 重新加载数据
+        } else {
+          this.$notify.error(res.msg);
+        }
+      })
+    }
 
 
   }

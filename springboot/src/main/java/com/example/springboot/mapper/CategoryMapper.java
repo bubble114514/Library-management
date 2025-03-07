@@ -1,25 +1,29 @@
 package com.example.springboot.mapper;
-//UserMapper的作用：将数据库中的数据映射到实体类中
+
+
 
 import com.example.springboot.controller.request.BaseRequest;
-import com.example.springboot.entity.User;
+import com.example.springboot.entity.Category;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
+
 @Mapper
-public interface UserMapper {
+public interface CategoryMapper {
 
-    List<User> list();
+    List<Category> list();
 
-    List<User> listByCondition(BaseRequest baseRequest);
+    List<Category> listByCondition(BaseRequest baseRequest);
 
-    void save(User user);
+    void save(Category obj);
 
-    User getById(Integer id);
+    Category getById(Integer id);
 
-    void update(User user);
+    void update(Category obj);
 
     void deleteById(Integer id);
+
+    List<Category> selectByPid(Integer id);
 
 
 }

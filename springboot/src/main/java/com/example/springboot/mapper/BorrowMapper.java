@@ -1,29 +1,36 @@
 package com.example.springboot.mapper;
 
 
-
 import com.example.springboot.controller.request.BaseRequest;
-import com.example.springboot.entity.Book;
+import com.example.springboot.entity.Borrow;
+import com.example.springboot.entity.ReturnBook;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
 
 @Mapper
-public interface BookMapper {
+public interface BorrowMapper {
 
-    List<Book> list();
+    List<Borrow> list();
 
-    List<Book> listByCondition(BaseRequest baseRequest);
+    List<Borrow> listByCondition(BaseRequest baseRequest);
 
-    void save(Book obj);
+    List<ReturnBook> listReturnByCondition(BaseRequest baseRequest);
 
-    Book getById(Integer id);
+    void save(Borrow obj);
+    
+    void saveReturn(ReturnBook obj);
 
-    void update(Book obj);
+    Borrow getById(Integer id);
+
+    void update(Borrow obj);
 
     void deleteById(Integer id);
 
-    List<Book> selectByPid(Integer id);
+
+    void deleteReturById(Integer id);
+
+    void updateStatus(String status,Integer id);
 
 
 }

@@ -1,15 +1,12 @@
 <template>
   <div style="width: 80%">
-    <h2 style="margin-bottom: 30px">编辑管理员</h2>
-    <el-form :model="form" status-icon :rules="rules" style="width: 80%" label-width="120px">
-      <el-form-item label="用户名" prop="username">
-        <el-input v-model="form.username" placeholder="请输入用户名"></el-input>
+    <h2 style="margin-bottom: 30px">编辑分类</h2>
+    <el-form :model="form" status-icon :rules="rules" ref="ruleForm" :inline="true" style="width: 80%" label-width="120px">
+      <el-form-item label="名称" prop="name">
+        <el-input v-model="form.name" placeholder="请输入名称"></el-input>
       </el-form-item>
-      <el-form-item label="联系方式" prop="phone">
-        <el-input v-model="form.phone" placeholder="请输入联系方式"></el-input>
-      </el-form-item>
-      <el-form-item label="邮箱" prop="email">
-        <el-input v-model.number="form.email" placeholder="请输入邮箱"></el-input>
+      <el-form-item label="备注" prop="remark">
+        <el-input v-model="form.remark" placeholder="请输入备注"></el-input>
       </el-form-item>
     </el-form>
     <div style="text-align: center;margin-top: 40px">
@@ -22,39 +19,28 @@
 import request from "@/utils/request";
 
 export default {
-  name: 'Edit',
+  name: 'EditCategory',
   data() {
-    const checkPhone = (rule, value, callback) => {
-      if(!/^[1][3-9][0-9]{9}$/.test(value)){
-        callback(new Error('请正确输入手机号'));
-      }
-      callback();
-    };
     return {
       form: {},
       rules: {
-        // 表单验证规则
-        username: [
-          {required: true, message: '请输入用户名', trigger: 'blur'},
-          {min: 2, max: 10, message: '长度在 2 到 10 个字符', trigger: 'blur'}
-        ],
-        phone: [
-          {validator: checkPhone, trigger: 'blur'}
+        name: [
+          {required: true, message: '请输入分类名称', trigger: 'blur'},
         ],
       },
     }
   },
   created() {
-    request.get('/admin/' + this.$route.query.id).then((res) => {
+    request.get('/category/' + this.$route.query.id).then((res) => {
       this.form = res.data
     })
   },
   methods: {
     save() {
-      request.put('/admin/update', this.form).then((res) => {
+      request.put('/category/update', this.form).then((res) => {
         if (res.code === '200') {
           this.$notify.success('更新成功')
-          this.$router.push('/adminList')
+          this.$router.push('/categoryList')
         } else {
            this.$notify.error(res.msg);
         }

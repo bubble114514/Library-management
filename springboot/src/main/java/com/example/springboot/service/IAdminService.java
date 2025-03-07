@@ -1,19 +1,33 @@
 package com.example.springboot.service;
-//IUserService的作用：定义用户相关的业务逻辑
-import com.example.springboot.controller.request.UserPageRequest;
+
+import com.example.springboot.controller.dto.LoginDTO;
+import com.example.springboot.controller.request.BaseRequest;
+import com.example.springboot.controller.request.LoginRequest;
+import com.example.springboot.controller.request.PasswordRequest;
+
+import com.example.springboot.entity.Admin;
 import com.example.springboot.entity.User;
+import com.github.pagehelper.PageInfo;
 
 import java.util.List;
 
-public interface IUserService {
-    List<User> list();
-    Object page(UserPageRequest userPageRequest);
+public interface IAdminService {
+    List<Admin> list();
 
-    void save(User user);
+    PageInfo<Admin> page(BaseRequest baseRequest);
 
-    User getById(Integer id);
+    void save(Admin obj);
 
-    void update(User user);
+    Admin getById(Integer id);
+
+    void update(Admin obj);
 
     void deleteById(Integer id);
+
+    LoginDTO login(LoginRequest request);
+
+    void changePass(PasswordRequest request);
+
+
+    void signup(Admin obj);
 }

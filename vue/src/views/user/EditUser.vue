@@ -1,7 +1,10 @@
 <template>
   <div style="width: 80%">
-    <h2 style="margin-bottom: 30px">新增用户</h2>
+    <h2 style="margin-bottom: 30px">编辑用户</h2>
     <el-form :model="form" status-icon :rules="rules" style="width: 80%" label-width="120px">
+      <el-form-item label="卡号" prop="username">
+        <el-input v-model="form.username"  disabled></el-input>
+      </el-form-item>
       <el-form-item label="姓名" prop="name">
         <el-input v-model="form.name" placeholder="请输入姓名"></el-input>
       </el-form-item>
@@ -26,19 +29,28 @@
 
 <script>
 import request from "@/utils/request";
+import axios from 'axios';
 export default {
+  name: 'AddUser',
   data() {
     return {
       form: {},
+      rules: {
+        // 表单验证规则
+      },
     }
+  },
+  created() {
+    request.get('/user/' + this.$route.query.id).then((res) => {
+      this.form = res.data
+    })
   },
   methods: {
     save() {
-      request.post('user/save', this.form).then((res) => {
+      request.put('/user/update', this.form).then((res) => {
         if (res.code === '200') {
-          // 提交表单数据
-          this.$notify.success('新增成功')
-          this.form = {}
+          this.$notify.success('更新成功')
+          this.$router.push('/userList')
         } else {
           this.$notify.error(res.msg);
         }

@@ -21,24 +21,10 @@
         <el-table-column prop="days" label="借出天数" width="80px" align="center" ></el-table-column>
         <el-table-column prop="createtime" label="借书日期" width="100px" align="center"></el-table-column>
         <el-table-column prop="returnDate" label="归还日期" width="100px" align="center"></el-table-column>
-        <el-table-column prop="note" label="到期提醒" width="100px" align="center">
-          <template v-slot="scope">
-            <el-tag type="success" v-if="scope.row.note === '正常'"> {{scope.row.note}}</el-tag>
-            <el-tag type="primary" v-if="scope.row.note === '即将到期'">{{scope.row.note}}</el-tag>
-            <el-tag type="warning" v-if="scope.row.note === '已到期'">{{scope.row.note}}</el-tag>
-            <el-tag type="danger" v-if="scope.row.note === '已超期'">{{scope.row.note}}</el-tag>
-          </template>
-        </el-table-column>
-        <el-table-column prop="note" label="管理" width="80" align="center" >
-          <template v-slot="scope">
-            <el-button type="primary" @click="returnBooks(scope.row)">还书</el-button>
-          </template>
-        </el-table-column>
+        <el-table-column prop="realDate" label="实际归还日期" width="100px" align="center"></el-table-column>
 
-        <el-table-column label="操作" width="80" align="center">
+        <el-table-column label="操作" width="100" align="center">
           <template v-slot="scope">
-            <!-- scope.row就是当前行数据 -->
-<!--            <el-button type="primary" @click="$router.push('/editBorrow?id=' + scope.row.id)">编辑</el-button>-->
             <el-popconfirm
                 title="确定删除吗？"
                 @confirm="del(scope.row.id)"
@@ -72,7 +58,7 @@ import request from '@/utils/request';
 import Cookies from "js-cookie";
 
 export default {
-  name: 'BorrowList',
+  name: 'ReturnBookList',
 
   data() {
     return {
@@ -97,7 +83,7 @@ export default {
   methods: {
 
     load() {
-      request.get('/borrow/page', {
+      request.get('/borrow/pageRetur', {
         params: this.params
       }).then(res => {
         if (res && res.code === '200') {
@@ -128,7 +114,7 @@ export default {
       this.load();
     },
     del(id) {
-      request.delete("/borrow/delete/" + id).then((res) => {
+      request.delete("/borrow/deleteRetur/" + id).then((res) => {
         if (res.code === '200') {
           this.$notify.success("删除成功");
           this.load(); // 重新加载数据
@@ -140,10 +126,6 @@ export default {
         console.error('Delete failed:', error);
       });
     },
-    returnBooks(row){
-
-    }
-
 
   }
 };

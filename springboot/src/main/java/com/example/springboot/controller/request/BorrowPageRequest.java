@@ -3,7 +3,8 @@ package com.example.springboot.controller.request;
 import lombok.Data;
 
 @Data
-public class BookPageRequest extends BaseRequest {
-    private String name;
+public class BorrowPageRequest extends BaseRequest {
+    private String bookName;
     private String bookNo;
+    private String userName;
 }

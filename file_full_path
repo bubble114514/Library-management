@@ -1,0 +1,5 @@
+import VueSliderCaptcha from 'vue-slider-captcha';
+components: {
+  VueSliderCaptcha
+},
+<vue-slider-captcha @success="onSliderSuccess" @fail="onSliderFail" />

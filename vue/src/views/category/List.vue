@@ -1,53 +1,57 @@
 <template>
-  <div>
-    <div>
-      <el-input style="width: 240px;margin-bottom: 15px" placeholder="请输入名称" v-model="searchName"></el-input>
-      <el-input style="width: 300px;margin-left:5px" placeholder="请输入联系方式" v-model="searchPhone"></el-input>
-      <el-input style="width: 300px;margin-left:5px" placeholder="请输入邮箱" v-model="searchEmail"></el-input>
-      <el-button style="margin-left: 5px" type="primary" @click="search"><i class="el-icon-search"></i>搜索</el-button>
-      <el-button style="margin-left: 5px" type="warning" @click="reset"><i class="el-icon-refresh"></i>重置</el-button>
+  <div class="category-container">
+    <!-- 搜索和操作区域 -->
+    <div class="search-operation">
+      <el-input
+          style="width: 240px; margin-right: 10px"
+          placeholder="请输入分类名称"
+          v-model="params.name"
+          clearable
+      ></el-input>
+      <el-button type="primary" @click="load">
+        <i class="el-icon-search"></i> 搜索
+      </el-button>
+      <el-button type="warning" @click="reset">
+        <i class="el-icon-refresh"></i> 重置
+      </el-button>
+      <el-button type="success" @click="addMainDialogVisible = true">
+        <i class="el-icon-circle-plus-outline"></i> 新建
+      </el-button>
     </div>
-    <div>
-      <el-table :data="tableData" stripe v-if="dataLoaded">
-        <el-table-column prop="id" label="编号" width="80"></el-table-column>
-        <el-table-column prop="username" label="用户名"></el-table-column>
-        <el-table-column prop="phone" label="联系方式"></el-table-column>
-        <el-table-column prop="email" label="邮箱"></el-table-column>
-        <el-table-column prop="createtime" label="创建时间"></el-table-column>
-        <el-table-column prop="updatetime" label="更新时间"></el-table-column>
 
-        <el-table-column label="状态">
-          <template v-slot="scope">
-            <el-switch
-              v-model="scope.row.status"
-              @change="changeStatus(scope.row)"
-              active-color="#13ce66"
-              inactive-color="#ff4949">
-            </el-switch>
-          </template>
-        </el-table-column>
-
-        <el-table-column label="操作" width="230">
-          <template v-slot="scope">
-            <!-- scope.row就是当前行数据 -->
-            <el-button type="primary" @click="$router.push('/editAdmin?id=' + scope.row.id)">编辑</el-button>
-            <el-popconfirm
-                title="确定删除吗？"
-                @confirm="del(scope.row.id)"
-                style="margin-left: 5px"
-            >
-              <el-button type="danger" slot="reference">删除</el-button>
-            </el-popconfirm>
-
-            <el-button style="margin-left: 5px" type="warning" @click="handleChangePass(scope.row)">修改密码</el-button>
-
-          </template>
-        </el-table-column>
-      </el-table>
-      <div v-else>加载中...</div>
+    <!-- 树形控件显示分类 -->
+    <div class="tree-container">
+      <el-tree
+          v-if="dataLoaded"
+          :data="treeData"
+          node-key="id"
+          default-expand-all
+          :props="defaultProps"
+          :expand-on-click-node="false"
+      >
+        <!-- 自定义树节点的内容 -->
+        <template v-slot="{ node, data }">
+          <span class="custom-tree-node">
+            <span>{{ node.label }}</span>
+            <span>
+              <el-button type="success" size="mini" @click="handleAdd(data)">添加子分类</el-button>
+              <el-button type="primary" size="mini" @click="handleEdit(data)">编辑</el-button>
+              <el-popconfirm
+                  title="确定删除吗？"
+                  @confirm="del(data.id)"
+                  style="margin-left: 5px"
+              >
+                <el-button type="danger" size="mini" slot="reference">删除</el-button>
+              </el-popconfirm>
+            </span>
+          </span>
+        </template>
+      </el-tree>
+      <div v-else class="loading-text">加载中...</div>
     </div>
-    <!--分页-->
-    <div style="margin-top: 20px">
+
+    <!-- 分页 -->
+    <div class="pagination-container">
       <el-pagination
           background
           :current-page="params.pageNum"
@@ -58,18 +62,51 @@
       ></el-pagination>
     </div>
 
-    <el-dialog title="修改密码" :visible.sync="dialogFormVisible" width="30%">
-      <el-form :model="form" label-width="100px" ref="formRef" :rules="rules">
-        <el-form-item label="旧密码" prop="oldPass">
-          <el-input v-model="form.oldPass" autocomplete="off" show-password></el-input>
+    <!-- 添加大分类的弹窗 -->
+    <el-dialog :title="dialogTitle" :visible.sync="addMainDialogVisible" width="35%">
+      <el-form :model="form" label-width="100px" ref="addMainForm" :rules="rules">
+        <el-form-item label="分类名称" prop="name">
+          <el-input v-model="form.name"></el-input>
         </el-form-item>
-        <el-form-item label="新密码" prop="newPass">
-          <el-input v-model="form.newPass" autocomplete="off" show-password></el-input>
+        <el-form-item label="分类备注">
+          <el-input v-model="form.remark"></el-input>
         </el-form-item>
       </el-form>
       <div slot="footer" class="dialog-footer">
-        <el-button @click="dialogFormVisible = false">取 消</el-button>
-        <el-button type="primary" @click="savePass">确 定</el-button>
+        <el-button type="primary" @click="addMainCategory">确 定</el-button>
+        <el-button @click="addMainDialogVisible = false">取 消</el-button>
+      </div>
+    </el-dialog>
+
+    <!-- 添加子分类的弹窗 -->
+    <el-dialog :title="dialogTitle" :visible.sync="addDialogVisible" width="35%">
+      <el-form :model="form" label-width="100px" ref="addForm" :rules="rules">
+        <el-form-item label="分类名称" prop="name">
+          <el-input v-model="form.name"></el-input>
+        </el-form-item>
+        <el-form-item label="分类备注">
+          <el-input v-model="form.remark"></el-input>
+        </el-form-item>
+      </el-form>
+      <div slot="footer" class="dialog-footer">
+        <el-button type="primary" @click="save">确 定</el-button>
+        <el-button @click="addDialogVisible = false">取 消</el-button>
+      </div>
+    </el-dialog>
+
+    <!-- 编辑分类的弹窗 -->
+    <el-dialog :title="dialogTitle" :visible.sync="editDialogVisible" width="35%">
+      <el-form :model="form" label-width="100px" ref="editForm" :rules="rules">
+        <el-form-item label="分类名称" prop="name">
+          <el-input v-model="form.name"></el-input>
+        </el-form-item>
+        <el-form-item label="分类备注">
+          <el-input v-model="form.remark"></el-input>
+        </el-form-item>
+      </el-form>
+      <div slot="footer" class="dialog-footer">
+        <el-button type="primary" @click="update">确 定</el-button>
+        <el-button @click="editDialogVisible = false">取 消</el-button>
       </div>
     </el-dialog>
   </div>
@@ -80,33 +117,31 @@ import request from '@/utils/request';
 import Cookies from "js-cookie";
 
 export default {
-  name: 'User',
+  name: 'CategoryList',
   data() {
     return {
-      tableData: [],
-      total: 0,
-      dialogFormVisible: false,
-      form: {},
       admin: Cookies.get('admin') ? JSON.parse(Cookies.get('admin')) : {},
+      addMainDialogVisible: false,
+      addDialogVisible: false,
+      editDialogVisible: false,
+      dialogTitle: '添加分类',
+      form: {},
+      pid: '',
+      treeData: [],
+      total: 0,
       params: {
-        username: '',
-        phone: '',
-        email: '',
+        name: '',
         pageNum: 1,
-        pageSize: 10,
+        pageSize: 25,
       },
-      searchName: '',
-      searchPhone: '',
-      searchEmail: '',
       dataLoaded: false,
+      defaultProps: {
+        children: 'children',
+        label: 'name',
+      },
       rules: {
-        newPass: [
-          {required: true, message: '请输入新密码', trigger: 'blur'},
-          {min: 3, message: '密码长度不能小于3位', trigger: 'blur'},
-        ],
-        oldPass: [
-          {required: true, message: '请输入旧密码', trigger: 'blur'},
-          {min: 3, message: '密码长度不能小于3位', trigger: 'blur'},
+        name: [
+          {required: true, message: '请输入分类名称', trigger: 'blur'},
         ],
       },
     };
@@ -115,41 +150,19 @@ export default {
     this.load();
   },
   methods: {
-    changeStatus(row) {
-      if (this.admin.id === row.id){
-        this.$notify.warning('不能修改自己的状态');
-        row.status = !row.status;
-        return;
-      }
-      request.put('/admin/update', row).then((res) => {
-        if (res.code === '200') {
-          this.$notify.success('操作成功')
-          this.load()
-        } else {
-          this.$notify.error(res.msg);
-        }
-      });
-    },
     load() {
-      request.get('/admin/page', {
-        params: this.params
-      }).then(res => {
+      request.get('/category/page', {
+        params: this.params,
+      }).then((res) => {
         if (res && res.code === '200') {
-          this.tableData = res.data.list;
+          this.treeData = res.data.list;
           this.total = res.data.total;
           this.dataLoaded = true;
         }
-      }).catch(error => {
+      }).catch((error) => {
         console.error('加载数据出错：', error);
         this.dataLoaded = false;
       });
-    },
-    search() {
-      this.params.username = this.searchName;
-      this.params.phone = this.searchPhone;
-      this.params.email = this.searchEmail;
-      this.params.pageNum = 1;
-      this.load();
     },
     handleCurrentChange(pageNum) {
       this.params.pageNum = pageNum;
@@ -157,64 +170,135 @@ export default {
     },
     reset() {
       this.params = {
-        username: '',
-        phone: '',
-        email: '',
+        name: '',
         pageNum: 1,
-        pageSize: 10
+        pageSize: 15,
       };
-      this.searchName = '';
-      this.searchPhone = '';
-      this.searchEmail = '';
-
       this.load();
     },
     del(id) {
-      request.delete("/admin/delete/" + id).then((res) => {
+      request.delete('/category/delete/' + id).then((res) => {
         if (res.code === '200') {
-          this.$notify.success("删除成功");
-          this.load(); // 重新加载数据
+          this.$notify.success('删除成功');
+          this.load();
         } else {
           this.$notify.error(res.msg);
         }
-      }).catch(error => {
-        this.$notify.error("删除失败，请重试");
+      }).catch((error) => {
+        this.$notify.error('删除失败，请重试');
         console.error('Delete failed:', error);
       });
     },
-    handleChangePass(row) {
-      this.form = JSON.parse(JSON.stringify(row));
-      this.dialogFormVisible = true;
-    },
-    savePass() {
-      this.$refs['formRef'].validate(valid => {
+    addMainCategory() {
+      this.$refs['addMainForm'].validate((valid) => {
         if (valid) {
-          const data = {
-            username: this.form.username,
-            password: this.form.oldPass, // 旧密码
-            newPass: this.form.newPass   // 新密码
-          };
-          request.put('/admin/password', data).then((res) => {
+          request.post('category/save', this.form).then((res) => {
             if (res.code === '200') {
-              this.$notify.success("修改成功");
-              // 如果当前修改用户的id等于当前登录用户的用id，则重新登录
-              if (this.form.id === this.admin.id) {
-                Cookies.remove('admin');
-                this.$router.push('/login');
-              }
-              this.dialogFormVisible = false;
+              this.$notify.success('新增成功');
+              this.$refs['addMainForm'].resetFields();
+              this.addMainDialogVisible = false;
+              this.load();
             } else {
-              this.load()
-              this.$notify.error("旧密码错误！");
+              this.$notify.error(res.msg);
             }
-          }).catch(error => {
-            this.$notify.error("修改失败，请重试");
-            console.error('Update password failed:', error);
           });
         }
       });
     },
-
-  }
+    save() {
+      this.$refs['addForm'].validate((valid) => {
+        if (valid) {
+          if (this.dialogTitle === '添加子分类') {
+            this.form.pid = this.pid;
+          }
+          request.post('/category/save', this.form).then((res) => {
+            if (res.code === '200') {
+              this.$notify.success(this.dialogTitle === '添加子分类' ? '新增分类成功' : '添加分类成功');
+              this.$refs['addForm'].resetFields();
+              this.addDialogVisible = false;
+              this.load();
+            } else {
+              this.$notify.error(res.msg);
+            }
+          });
+        }
+      });
+    },
+    handleAdd(row) {
+      this.pid = row.id;
+      this.dialogTitle = '添加子分类';
+      this.form = {};
+      this.addDialogVisible = true;
+    },
+    handleEdit(row) {
+      this.form = {...row};
+      this.dialogTitle = '编辑分类';
+      this.editDialogVisible = true;
+    },
+    update() {
+      this.$refs['editForm'].validate((valid) => {
+        if (valid) {
+          request.put('/category/update', this.form).then((res) => {
+            if (res.code === '200') {
+              this.$notify.success('更新成功');
+              this.editDialogVisible = false;
+              this.load();
+            } else {
+              this.$notify.error(res.msg);
+            }
+          });
+        }
+      });
+    },
+  },
 };
 </script>
+
+<style scoped>
+.category-container {
+  padding: 20px;
+  background-color: #f5f7fa;
+  border-radius: 8px;
+}
+
+.search-operation {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tree-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+}
+
+.custom-tree-node {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  padding-right: 8px;
+}
+
+.el-tree >>> .el-tree-node {
+  margin: 5px 0;
+}
+
+.el-tree >>> .el-tree-node__children {
+  padding-left: 5px;
+}
+
+.pagination-container {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.loading-text {
+  text-align: center;
+  color: #909399;
+  font-size: 14px;
+}
+</style>

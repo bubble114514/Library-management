@@ -1,7 +1,53 @@
+server:
+  port: 9090
 
 spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 20MB
   datasource:
-    driver-class-name:
-    com:mysql:cj:jdbc:Driver: jdbc:mysql://localhost:3306/library-management?serverTimezone=GMT%2b8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/library-management?serverTimezone=Asia/Shanghai
     username: root
     password:
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
+  mvc:
+    cors:
+      allowed-origins: "http://localhost:8080"
+      allowed-methods: "*"
+      allowed-headers: "*"
+      allow-credentials: true
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.example.springboot.entity
+  configuration:
+    map-underscore-to-camel-case: true # 开启数据库字段下划线转驼峰
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
+  pageSizeZero: true
+logging:
+  level:
+    root: INFO
+  file:
+    path: logs/
+    name: logs/app.log
+    max-size: 50MB
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} %-5level %logger{36} - %msg%n"
+  logback:
+    rolling policy:
+      max-file-size: 50MB
+
+
+
+
+

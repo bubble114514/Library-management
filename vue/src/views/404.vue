@@ -1,13 +1,9 @@
-<script>
-export default {
-name: "404"
-}
-</script>
-
 <template>
-  $END$
+  <div style="text-align: center">
+    <div style="margin-top: 150px;font-size: 100px">
+      404
+    </div>
+    <div style="font-size: 50px">未找到页面</div>
+    <div><el-button type="text" style="font-size: 20px" @click="() => $router.push('/')">返回首页</el-button></div>
+  </div>
 </template>
-
-<style scoped>
-
-</style>
