@@ -4,7 +4,10 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="delegatedBuild" value="false" />
+        <option name="testRunner" value="PLATFORM" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/springboot" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../APPtion/gradle-8.9" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/springboot" />

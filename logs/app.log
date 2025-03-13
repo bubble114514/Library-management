@@ -396,3 +396,1241 @@ java.net.SocketException: Connection reset
 2025-03-07 13:48:14.555 [lettuce-nioEventLoop-4-2] WARN  i.l.core.protocol.ConnectionWatchdog - Cannot reconnect to [localhost/<unresolved>:6379]: Connection refused: no further information: localhost/127.0.0.1:6379
 2025-03-07 13:48:31.402 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
 2025-03-07 13:48:31.405 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-13 09:44:07.883 [main] INFO  c.e.springboot.SpringbootApplication - Starting SpringbootApplication using Java 17.0.5 with PID 11836 (D:\Project\公司项目\Library-management\springboot\target\classes started by 19039 in D:\Project\公司项目\Library-management)
+2025-03-13 09:44:07.886 [main] DEBUG c.e.springboot.SpringbootApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-03-13 09:44:07.886 [main] INFO  c.e.springboot.SpringbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-13 09:44:08.364 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-03-13 09:44:08.367 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-13 09:44:08.389 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-03-13 09:44:08.809 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2025-03-13 09:44:08.811 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-13 09:44:08.811 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-13 09:44:08.824 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-13 09:44:08.829 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-13 09:44:08.833 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-13 09:44:08.833 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-03-13 09:44:08.888 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-13 09:44:08.888 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 967 ms
+2025-03-13 09:44:09.364 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-13 09:44:09.477 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b091a92
+2025-03-13 09:44:09.478 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-13 09:44:09.768 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-13 09:44:09.784 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path '/'
+2025-03-13 09:44:09.789 [main] INFO  c.e.springboot.SpringbootApplication - Started SpringbootApplication in 2.27 seconds (process running for 2.851)
+2025-03-13 09:55:36.435 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-13 09:55:36.442 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-13 10:18:17.363 [main] INFO  c.e.springboot.SpringbootApplication - Starting SpringbootApplication using Java 17.0.5 with PID 24244 (D:\Project\公司项目\Library-management\springboot\out\production\classes started by 19039 in D:\Project\公司项目\Library-management)
+2025-03-13 10:18:17.366 [main] DEBUG c.e.springboot.SpringbootApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-03-13 10:18:17.367 [main] INFO  c.e.springboot.SpringbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-13 10:18:17.997 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-03-13 10:18:18.000 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-13 10:18:18.026 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2025-03-13 10:18:18.554 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2025-03-13 10:18:18.556 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-13 10:18:18.556 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-13 10:18:18.571 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-13 10:18:18.578 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-13 10:18:18.581 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-13 10:18:18.581 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-03-13 10:18:18.640 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-13 10:18:18.640 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1226 ms
+2025-03-13 10:18:19.224 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-13 10:18:19.347 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6dc2279c
+2025-03-13 10:18:19.348 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-13 10:18:19.691 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-13 10:18:19.704 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path '/'
+2025-03-13 10:18:19.710 [main] INFO  c.e.springboot.SpringbootApplication - Started SpringbootApplication in 3.004 seconds (process running for 3.636)
+2025-03-13 10:18:41.802 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-13 10:18:41.802 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-13 10:18:41.803 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-13 10:18:41.931 [http-nio-9090-exec-2] DEBUG c.e.s.m.AdminMapper.getByUsername - ==>  Preparing: SELECT * FROM admin WHERE username = ?
+2025-03-13 10:18:41.955 [http-nio-9090-exec-2] DEBUG c.e.s.m.AdminMapper.getByUsername - ==> Parameters: admin1(String)
+2025-03-13 10:18:41.989 [http-nio-9090-exec-2] DEBUG c.e.s.m.AdminMapper.getByUsername - <==      Total: 1
+2025-03-13 10:18:44.887 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:18:44.887 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:18:44.890 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:18:44.896 [http-nio-9090-exec-8] ERROR c.e.s.exception.ExceptionHandle - 系统错误
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.Integer] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:186)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:161)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:107)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-03-13 10:18:47.605 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:18:47.605 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:18:47.606 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:18:47.680 [http-nio-9090-exec-3] DEBUG c.e.s.m.U.listByCondition_COUNT - ==>  Preparing: SELECT count(0) FROM user WHERE name LIKE concat('%', ?, '%') AND phone LIKE concat('%', ?, '%')
+2025-03-13 10:18:47.681 [http-nio-9090-exec-3] DEBUG c.e.s.m.U.listByCondition_COUNT - ==> Parameters: (String), (String)
+2025-03-13 10:18:47.688 [http-nio-9090-exec-3] DEBUG c.e.s.m.U.listByCondition_COUNT - <==      Total: 1
+2025-03-13 10:18:47.689 [http-nio-9090-exec-3] DEBUG c.e.s.m.UserMapper.listByCondition - ==>  Preparing: select * from user WHERE name like concat('%',?,'%') and phone like concat('%',?,'%') order by id desc LIMIT ?
+2025-03-13 10:18:47.689 [http-nio-9090-exec-3] DEBUG c.e.s.m.UserMapper.listByCondition - ==> Parameters: (String), (String), 10(Integer)
+2025-03-13 10:18:47.694 [http-nio-9090-exec-3] DEBUG c.e.s.m.UserMapper.listByCondition - <==      Total: 10
+2025-03-13 10:18:50.368 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:18:50.369 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:18:50.369 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:18:50.376 [http-nio-9090-exec-4] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - ==>  Preparing: SELECT count(0) FROM returnBook
+2025-03-13 10:18:50.376 [http-nio-9090-exec-4] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - ==> Parameters: 
+2025-03-13 10:18:50.391 [http-nio-9090-exec-4] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - <==      Total: 1
+2025-03-13 10:18:50.391 [http-nio-9090-exec-4] DEBUG c.e.s.m.B.listReturnByCondition - ==>  Preparing: select * from returnBook LIMIT ?
+2025-03-13 10:18:50.392 [http-nio-9090-exec-4] DEBUG c.e.s.m.B.listReturnByCondition - ==> Parameters: 10(Integer)
+2025-03-13 10:18:50.399 [http-nio-9090-exec-4] DEBUG c.e.s.m.B.listReturnByCondition - <==      Total: 9
+2025-03-13 10:18:51.297 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:18:51.297 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:18:51.298 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:18:51.301 [http-nio-9090-exec-10] DEBUG c.e.s.m.B.listByCondition_COUNT - ==>  Preparing: SELECT count(0) FROM borrow
+2025-03-13 10:18:51.301 [http-nio-9090-exec-10] DEBUG c.e.s.m.B.listByCondition_COUNT - ==> Parameters: 
+2025-03-13 10:18:51.304 [http-nio-9090-exec-10] DEBUG c.e.s.m.B.listByCondition_COUNT - <==      Total: 1
+2025-03-13 10:18:51.306 [http-nio-9090-exec-10] DEBUG c.e.s.m.BorrowMapper.listByCondition - ==>  Preparing: select * from borrow LIMIT ?
+2025-03-13 10:18:51.306 [http-nio-9090-exec-10] DEBUG c.e.s.m.BorrowMapper.listByCondition - ==> Parameters: 10(Integer)
+2025-03-13 10:18:51.310 [http-nio-9090-exec-10] DEBUG c.e.s.m.BorrowMapper.listByCondition - <==      Total: 10
+2025-03-13 10:18:54.664 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:18:54.666 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:18:54.667 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:18:54.669 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:18:54.669 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:18:54.669 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.BookMapper.list - ==>  Preparing: select * from book order by id desc
+2025-03-13 10:18:54.669 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.BookMapper.list - ==> Parameters: 
+2025-03-13 10:18:54.670 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:18:54.671 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.UserMapper.list - ==>  Preparing: select * from user
+2025-03-13 10:18:54.671 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.UserMapper.list - ==> Parameters: 
+2025-03-13 10:18:54.674 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.BookMapper.list - <==      Total: 6
+2025-03-13 10:18:54.676 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.UserMapper.list - <==      Total: 12
+2025-03-13 10:18:55.824 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:18:55.825 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:18:55.827 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:18:55.829 [http-nio-9090-exec-3] ERROR c.e.s.exception.ExceptionHandle - 系统错误
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.Integer] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:186)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:161)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:107)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-03-13 10:18:59.759 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:18:59.759 [http-nio-9090-exec-9] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:18:59.759 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:18:59.759 [http-nio-9090-exec-9] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:18:59.760 [http-nio-9090-exec-9] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:18:59.760 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:18:59.762 [http-nio-9090-exec-9] DEBUG c.e.s.mapper.BookMapper.list - ==>  Preparing: select * from book order by id desc
+2025-03-13 10:18:59.762 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.UserMapper.list - ==>  Preparing: select * from user
+2025-03-13 10:18:59.762 [http-nio-9090-exec-9] DEBUG c.e.s.mapper.BookMapper.list - ==> Parameters: 
+2025-03-13 10:18:59.762 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.UserMapper.list - ==> Parameters: 
+2025-03-13 10:18:59.764 [http-nio-9090-exec-9] DEBUG c.e.s.mapper.BookMapper.list - <==      Total: 6
+2025-03-13 10:18:59.764 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.UserMapper.list - <==      Total: 12
+2025-03-13 10:19:00.100 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:19:00.100 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:19:00.101 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:19:00.102 [http-nio-9090-exec-2] ERROR c.e.s.exception.ExceptionHandle - 系统错误
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.Integer] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:186)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:161)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:107)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-03-13 10:19:00.217 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:19:00.218 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:19:00.218 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:19:00.220 [http-nio-9090-exec-6] ERROR c.e.s.exception.ExceptionHandle - 系统错误
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.Integer] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:186)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:161)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:107)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-03-13 10:19:00.839 [http-nio-9090-exec-5] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:19:00.839 [http-nio-9090-exec-5] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:19:00.840 [http-nio-9090-exec-5] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:19:00.841 [http-nio-9090-exec-5] ERROR c.e.s.exception.ExceptionHandle - 系统错误
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.Integer] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:186)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:161)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:107)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-03-13 10:19:04.621 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:19:04.621 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:19:04.623 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:19:04.626 [http-nio-9090-exec-7] DEBUG c.e.s.m.B.listByCondition_COUNT - ==>  Preparing: SELECT count(0) FROM borrow
+2025-03-13 10:19:04.627 [http-nio-9090-exec-7] DEBUG c.e.s.m.B.listByCondition_COUNT - ==> Parameters: 
+2025-03-13 10:19:04.627 [http-nio-9090-exec-7] DEBUG c.e.s.m.B.listByCondition_COUNT - <==      Total: 1
+2025-03-13 10:19:04.628 [http-nio-9090-exec-7] DEBUG c.e.s.m.BorrowMapper.listByCondition - ==>  Preparing: select * from borrow LIMIT ?
+2025-03-13 10:19:04.628 [http-nio-9090-exec-7] DEBUG c.e.s.m.BorrowMapper.listByCondition - ==> Parameters: 10(Integer)
+2025-03-13 10:19:04.633 [http-nio-9090-exec-7] DEBUG c.e.s.m.BorrowMapper.listByCondition - <==      Total: 10
+2025-03-13 10:19:08.714 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:19:08.715 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:19:08.716 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:19:08.718 [http-nio-9090-exec-10] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - ==>  Preparing: SELECT count(0) FROM returnBook
+2025-03-13 10:19:08.719 [http-nio-9090-exec-10] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - ==> Parameters: 
+2025-03-13 10:19:08.719 [http-nio-9090-exec-10] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - <==      Total: 1
+2025-03-13 10:19:08.720 [http-nio-9090-exec-10] DEBUG c.e.s.m.B.listReturnByCondition - ==>  Preparing: select * from returnBook LIMIT ?
+2025-03-13 10:19:08.720 [http-nio-9090-exec-10] DEBUG c.e.s.m.B.listReturnByCondition - ==> Parameters: 10(Integer)
+2025-03-13 10:19:08.727 [http-nio-9090-exec-10] DEBUG c.e.s.m.B.listReturnByCondition - <==      Total: 9
+2025-03-13 10:19:09.198 [http-nio-9090-exec-9] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:19:09.198 [http-nio-9090-exec-9] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:19:09.200 [http-nio-9090-exec-9] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:19:09.202 [http-nio-9090-exec-9] DEBUG c.e.s.m.B.listByCondition_COUNT - ==>  Preparing: SELECT count(0) FROM borrow
+2025-03-13 10:19:09.203 [http-nio-9090-exec-9] DEBUG c.e.s.m.B.listByCondition_COUNT - ==> Parameters: 
+2025-03-13 10:19:09.203 [http-nio-9090-exec-9] DEBUG c.e.s.m.B.listByCondition_COUNT - <==      Total: 1
+2025-03-13 10:19:09.204 [http-nio-9090-exec-9] DEBUG c.e.s.m.BorrowMapper.listByCondition - ==>  Preparing: select * from borrow LIMIT ?
+2025-03-13 10:19:09.204 [http-nio-9090-exec-9] DEBUG c.e.s.m.BorrowMapper.listByCondition - ==> Parameters: 10(Integer)
+2025-03-13 10:19:09.207 [http-nio-9090-exec-9] DEBUG c.e.s.m.BorrowMapper.listByCondition - <==      Total: 10
+2025-03-13 10:19:09.804 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:19:09.804 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:19:09.806 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:19:09.806 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:19:09.807 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:19:09.807 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:19:09.809 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.UserMapper.list - ==>  Preparing: select * from user
+2025-03-13 10:19:09.809 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.BookMapper.list - ==>  Preparing: select * from book order by id desc
+2025-03-13 10:19:09.809 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.UserMapper.list - ==> Parameters: 
+2025-03-13 10:19:09.809 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.BookMapper.list - ==> Parameters: 
+2025-03-13 10:19:09.811 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.UserMapper.list - <==      Total: 12
+2025-03-13 10:19:09.813 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.BookMapper.list - <==      Total: 6
+2025-03-13 10:20:38.441 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-13 10:20:38.446 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-13 10:20:41.460 [main] INFO  c.e.springboot.SpringbootApplication - Starting SpringbootApplication using Java 17.0.5 with PID 6344 (D:\Project\公司项目\Library-management\springboot\out\production\classes started by 19039 in D:\Project\公司项目\Library-management)
+2025-03-13 10:20:41.462 [main] DEBUG c.e.springboot.SpringbootApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-03-13 10:20:41.463 [main] INFO  c.e.springboot.SpringbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-13 10:20:42.031 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-03-13 10:20:42.033 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-13 10:20:42.054 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2025-03-13 10:20:42.463 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2025-03-13 10:20:42.466 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-13 10:20:42.466 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-13 10:20:42.469 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-13 10:20:42.475 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-13 10:20:42.477 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-13 10:20:42.477 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-03-13 10:20:42.529 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-13 10:20:42.529 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1027 ms
+2025-03-13 10:20:42.948 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-13 10:20:43.043 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a2df0d5
+2025-03-13 10:20:43.044 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-13 10:20:43.334 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-13 10:20:43.348 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path '/'
+2025-03-13 10:20:43.353 [main] INFO  c.e.springboot.SpringbootApplication - Started SpringbootApplication in 2.318 seconds (process running for 2.784)
+2025-03-13 10:20:49.570 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-13 10:20:49.570 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-13 10:20:49.571 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-13 10:20:49.651 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:20:49.651 [http-nio-9090-exec-5] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:20:49.670 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:20:49.670 [http-nio-9090-exec-5] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:20:49.691 [http-nio-9090-exec-5] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:20:49.691 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:20:49.716 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.BookMapper.list - ==>  Preparing: select * from book order by id desc
+2025-03-13 10:20:49.716 [http-nio-9090-exec-5] DEBUG c.e.s.mapper.UserMapper.list - ==>  Preparing: select * from user
+2025-03-13 10:20:49.716 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.BookMapper.list - ==> Parameters: 
+2025-03-13 10:20:49.716 [http-nio-9090-exec-5] DEBUG c.e.s.mapper.UserMapper.list - ==> Parameters: 
+2025-03-13 10:20:49.722 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.BookMapper.list - <==      Total: 6
+2025-03-13 10:20:49.723 [http-nio-9090-exec-5] DEBUG c.e.s.mapper.UserMapper.list - <==      Total: 12
+2025-03-13 10:20:49.925 [http-nio-9090-exec-9] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:20:49.926 [http-nio-9090-exec-9] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:20:49.927 [http-nio-9090-exec-9] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:20:49.932 [http-nio-9090-exec-9] ERROR c.e.s.exception.ExceptionHandle - 系统错误
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.Integer] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:186)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:161)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:107)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-03-13 10:20:50.015 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:20:50.016 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:20:50.017 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:20:50.019 [http-nio-9090-exec-6] ERROR c.e.s.exception.ExceptionHandle - 系统错误
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.Integer] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:186)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:161)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:107)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-03-13 10:20:50.547 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:20:50.547 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:20:50.548 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:20:50.549 [http-nio-9090-exec-7] ERROR c.e.s.exception.ExceptionHandle - 系统错误
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.Integer] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:186)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:161)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:107)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-03-13 10:26:05.447 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:26:05.447 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:26:05.448 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:26:05.528 [http-nio-9090-exec-3] DEBUG c.e.s.m.B.listByCondition_COUNT - ==>  Preparing: SELECT count(0) FROM borrow
+2025-03-13 10:26:05.528 [http-nio-9090-exec-3] DEBUG c.e.s.m.B.listByCondition_COUNT - ==> Parameters: 
+2025-03-13 10:26:05.529 [http-nio-9090-exec-3] DEBUG c.e.s.m.B.listByCondition_COUNT - <==      Total: 1
+2025-03-13 10:26:05.531 [http-nio-9090-exec-3] DEBUG c.e.s.m.BorrowMapper.listByCondition - ==>  Preparing: select * from borrow LIMIT ?
+2025-03-13 10:26:05.531 [http-nio-9090-exec-3] DEBUG c.e.s.m.BorrowMapper.listByCondition - ==> Parameters: 10(Integer)
+2025-03-13 10:26:05.537 [http-nio-9090-exec-3] DEBUG c.e.s.m.BorrowMapper.listByCondition - <==      Total: 10
+2025-03-13 10:26:11.868 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:26:11.869 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:26:11.870 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:26:11.873 [http-nio-9090-exec-4] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - ==>  Preparing: SELECT count(0) FROM returnBook
+2025-03-13 10:26:11.873 [http-nio-9090-exec-4] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - ==> Parameters: 
+2025-03-13 10:26:11.874 [http-nio-9090-exec-4] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - <==      Total: 1
+2025-03-13 10:26:11.874 [http-nio-9090-exec-4] DEBUG c.e.s.m.B.listReturnByCondition - ==>  Preparing: select * from returnBook LIMIT ?
+2025-03-13 10:26:11.875 [http-nio-9090-exec-4] DEBUG c.e.s.m.B.listReturnByCondition - ==> Parameters: 10(Integer)
+2025-03-13 10:26:11.877 [http-nio-9090-exec-4] DEBUG c.e.s.m.B.listReturnByCondition - <==      Total: 9
+2025-03-13 10:26:15.849 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:26:15.850 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:26:15.851 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:26:15.852 [http-nio-9090-exec-6] ERROR c.e.s.exception.ExceptionHandle - 系统错误
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.Integer] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:186)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:161)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:107)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-03-13 10:29:03.980 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-13 10:29:03.985 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-13 10:29:05.991 [main] INFO  c.e.springboot.SpringbootApplication - Starting SpringbootApplication using Java 17.0.5 with PID 15316 (D:\Project\公司项目\Library-management\springboot\out\production\classes started by 19039 in D:\Project\公司项目\Library-management)
+2025-03-13 10:29:05.993 [main] DEBUG c.e.springboot.SpringbootApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-03-13 10:29:05.993 [main] INFO  c.e.springboot.SpringbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-13 10:29:06.477 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-03-13 10:29:06.479 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-13 10:29:06.499 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2025-03-13 10:29:06.858 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2025-03-13 10:29:06.860 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-13 10:29:06.861 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-13 10:29:06.864 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-13 10:29:06.873 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-13 10:29:06.876 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-13 10:29:06.876 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-03-13 10:29:06.930 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-13 10:29:06.931 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 898 ms
+2025-03-13 10:29:07.335 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-13 10:29:07.426 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@20027c44
+2025-03-13 10:29:07.426 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-13 10:29:07.689 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-13 10:29:07.701 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path '/'
+2025-03-13 10:29:07.707 [main] INFO  c.e.springboot.SpringbootApplication - Started SpringbootApplication in 2.125 seconds (process running for 2.615)
+2025-03-13 10:29:15.307 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-13 10:29:15.307 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-13 10:29:15.308 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-13 10:29:15.377 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:29:15.393 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:29:15.412 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:29:15.504 [http-nio-9090-exec-2] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - ==>  Preparing: SELECT count(0) FROM returnBook
+2025-03-13 10:29:15.504 [http-nio-9090-exec-2] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - ==> Parameters: 
+2025-03-13 10:29:15.505 [http-nio-9090-exec-2] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - <==      Total: 1
+2025-03-13 10:29:15.505 [http-nio-9090-exec-2] DEBUG c.e.s.m.B.listReturnByCondition - ==>  Preparing: select * from returnBook LIMIT ?
+2025-03-13 10:29:15.505 [http-nio-9090-exec-2] DEBUG c.e.s.m.B.listReturnByCondition - ==> Parameters: 10(Integer)
+2025-03-13 10:29:15.511 [http-nio-9090-exec-2] DEBUG c.e.s.m.B.listReturnByCondition - <==      Total: 9
+2025-03-13 10:29:15.764 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:29:15.765 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:29:15.766 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:29:15.769 [http-nio-9090-exec-4] ERROR c.e.s.exception.ExceptionHandle - 系统错误
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.Integer] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:186)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:161)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:107)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-03-13 10:29:15.854 [http-nio-9090-exec-5] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:29:15.854 [http-nio-9090-exec-5] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:29:15.856 [http-nio-9090-exec-5] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:29:15.857 [http-nio-9090-exec-5] ERROR c.e.s.exception.ExceptionHandle - 系统错误
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.Integer] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:186)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:161)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:107)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:527)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-03-13 10:29:18.337 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:29:18.337 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:29:18.338 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:29:18.339 [http-nio-9090-exec-7] ERROR c.e.s.exception.ExceptionHandle - 系统错误
+java.lang.IllegalArgumentException: Name for argument of type [java.lang.Integer] not specified, and parameter name information not available via reflection. Ensure that the compiler uses the '-parameters' flag.
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.updateNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:186)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.getNamedValueInfo(AbstractNamedValueMethodArgumentResolver.java:161)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:107)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doDelete(FrameworkServlet.java:936)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:553)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:614)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-03-13 10:32:44.172 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-13 10:32:44.179 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-13 10:33:51.989 [main] INFO  c.e.springboot.SpringbootApplication - Starting SpringbootApplication using Java 17.0.5 with PID 19416 (D:\Project\公司项目\Library-management\springboot\target\classes started by 19039 in D:\Project\公司项目\Library-management)
+2025-03-13 10:33:51.991 [main] DEBUG c.e.springboot.SpringbootApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-03-13 10:33:51.991 [main] INFO  c.e.springboot.SpringbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-13 10:33:52.450 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-03-13 10:33:52.451 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-13 10:33:52.481 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+2025-03-13 10:33:52.948 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2025-03-13 10:33:52.950 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-13 10:33:52.950 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-13 10:33:52.953 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-13 10:33:52.958 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-13 10:33:52.960 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-13 10:33:52.961 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-03-13 10:33:53.008 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-13 10:33:53.008 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 983 ms
+2025-03-13 10:33:53.416 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-13 10:33:53.501 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3739f3c9
+2025-03-13 10:33:53.502 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-13 10:33:53.775 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-13 10:33:53.788 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path '/'
+2025-03-13 10:33:53.793 [main] INFO  c.e.springboot.SpringbootApplication - Started SpringbootApplication in 2.102 seconds (process running for 2.559)
+2025-03-13 10:34:20.401 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-13 10:34:20.406 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-13 10:34:23.044 [main] INFO  c.e.springboot.SpringbootApplication - Starting SpringbootApplication using Java 17.0.5 with PID 24756 (D:\Project\公司项目\Library-management\springboot\target\classes started by 19039 in D:\Project\公司项目\Library-management)
+2025-03-13 10:34:23.045 [main] DEBUG c.e.springboot.SpringbootApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-03-13 10:34:23.046 [main] INFO  c.e.springboot.SpringbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-13 10:34:23.463 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-03-13 10:34:23.465 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-13 10:34:23.486 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2025-03-13 10:34:23.836 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2025-03-13 10:34:23.838 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-13 10:34:23.838 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-13 10:34:23.841 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-13 10:34:23.846 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-13 10:34:23.849 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-13 10:34:23.849 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-03-13 10:34:23.898 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-13 10:34:23.898 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 822 ms
+2025-03-13 10:34:24.284 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-13 10:34:24.378 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@51de5efa
+2025-03-13 10:34:24.379 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-13 10:34:24.638 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-13 10:34:24.653 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path '/'
+2025-03-13 10:34:24.659 [main] INFO  c.e.springboot.SpringbootApplication - Started SpringbootApplication in 1.9 seconds (process running for 2.295)
+2025-03-13 10:35:13.738 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-13 10:35:13.744 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-03-13 10:35:16.608 [main] INFO  c.e.springboot.SpringbootApplication - Starting SpringbootApplication using Java 17.0.5 with PID 17336 (D:\Project\公司项目\Library-management\springboot\target\classes started by 19039 in D:\Project\公司项目\Library-management)
+2025-03-13 10:35:16.610 [main] DEBUG c.e.springboot.SpringbootApplication - Running with Spring Boot v3.3.5, Spring v6.1.14
+2025-03-13 10:35:16.611 [main] INFO  c.e.springboot.SpringbootApplication - No active profile set, falling back to 1 default profile: "default"
+2025-03-13 10:35:17.015 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2025-03-13 10:35:17.017 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-13 10:35:17.038 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 11 ms. Found 0 Redis repository interfaces.
+2025-03-13 10:35:17.377 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2025-03-13 10:35:17.379 [main] INFO  o.a.c.core.AprLifecycleListener - An older version [1.3.1] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [2.0.5]
+2025-03-13 10:35:17.379 [main] INFO  o.a.c.core.AprLifecycleListener - Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+2025-03-13 10:35:17.383 [main] INFO  o.a.c.core.AprLifecycleListener - OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+2025-03-13 10:35:17.388 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2025-03-13 10:35:17.390 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-03-13 10:35:17.390 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+2025-03-13 10:35:17.439 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-03-13 10:35:17.440 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 797 ms
+2025-03-13 10:35:17.827 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-03-13 10:35:17.911 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2a120c88
+2025-03-13 10:35:17.912 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-03-13 10:35:18.164 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2025-03-13 10:35:18.176 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path '/'
+2025-03-13 10:35:18.181 [main] INFO  c.e.springboot.SpringbootApplication - Started SpringbootApplication in 1.885 seconds (process running for 2.436)
+2025-03-13 10:35:26.654 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-13 10:35:26.654 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-03-13 10:35:26.655 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-03-13 10:35:26.727 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:35:26.742 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:35:26.757 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:35:26.819 [http-nio-9090-exec-2] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - ==>  Preparing: SELECT count(0) FROM returnBook
+2025-03-13 10:35:26.820 [http-nio-9090-exec-2] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - ==> Parameters: 
+2025-03-13 10:35:26.821 [http-nio-9090-exec-2] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - <==      Total: 1
+2025-03-13 10:35:26.823 [http-nio-9090-exec-2] DEBUG c.e.s.m.B.listReturnByCondition - ==>  Preparing: select * from returnBook LIMIT ?
+2025-03-13 10:35:26.823 [http-nio-9090-exec-2] DEBUG c.e.s.m.B.listReturnByCondition - ==> Parameters: 10(Integer)
+2025-03-13 10:35:26.827 [http-nio-9090-exec-2] DEBUG c.e.s.m.B.listReturnByCondition - <==      Total: 9
+2025-03-13 10:35:27.099 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:35:27.101 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:35:27.102 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:35:27.105 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:35:27.105 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:35:27.107 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:35:27.190 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:35:27.190 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:35:27.191 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:35:27.192 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:35:27.192 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:35:27.193 [http-nio-9090-exec-6] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:35:29.358 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:35:29.358 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:35:29.359 [http-nio-9090-exec-3] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:35:29.360 [http-nio-9090-exec-3] DEBUG c.e.s.m.BorrowMapper.deleteReturById - ==>  Preparing: delete from returnBook where id = ?
+2025-03-13 10:35:29.361 [http-nio-9090-exec-3] DEBUG c.e.s.m.BorrowMapper.deleteReturById - ==> Parameters: 8(Integer)
+2025-03-13 10:35:29.365 [http-nio-9090-exec-3] DEBUG c.e.s.m.BorrowMapper.deleteReturById - <==    Updates: 1
+2025-03-13 10:35:29.374 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:35:29.375 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:35:29.376 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:35:29.378 [http-nio-9090-exec-7] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - ==>  Preparing: SELECT count(0) FROM returnBook
+2025-03-13 10:35:29.378 [http-nio-9090-exec-7] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - ==> Parameters: 
+2025-03-13 10:35:29.379 [http-nio-9090-exec-7] DEBUG c.e.s.m.B.listReturnByCondition_COUNT - <==      Total: 1
+2025-03-13 10:35:29.379 [http-nio-9090-exec-7] DEBUG c.e.s.m.B.listReturnByCondition - ==>  Preparing: select * from returnBook LIMIT ?
+2025-03-13 10:35:29.379 [http-nio-9090-exec-7] DEBUG c.e.s.m.B.listReturnByCondition - ==> Parameters: 10(Integer)
+2025-03-13 10:35:29.385 [http-nio-9090-exec-7] DEBUG c.e.s.m.B.listReturnByCondition - <==      Total: 8
+2025-03-13 10:35:35.892 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:35:35.892 [http-nio-9090-exec-1] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:35:35.893 [http-nio-9090-exec-1] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:35:35.893 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:35:35.894 [http-nio-9090-exec-1] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:35:35.894 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:35:35.895 [http-nio-9090-exec-1] DEBUG c.e.s.mapper.BookMapper.list - ==>  Preparing: select * from book order by id desc
+2025-03-13 10:35:35.896 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.UserMapper.list - ==>  Preparing: select * from user
+2025-03-13 10:35:35.896 [http-nio-9090-exec-1] DEBUG c.e.s.mapper.BookMapper.list - ==> Parameters: 
+2025-03-13 10:35:35.896 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.UserMapper.list - ==> Parameters: 
+2025-03-13 10:35:35.899 [http-nio-9090-exec-1] DEBUG c.e.s.mapper.BookMapper.list - <==      Total: 6
+2025-03-13 10:35:35.901 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.UserMapper.list - <==      Total: 12
+2025-03-13 10:35:36.957 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:35:36.957 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:35:36.959 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:35:36.961 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.BookMapper.getById - ==>  Preparing: select * from book where id = ?
+2025-03-13 10:35:36.961 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.BookMapper.getById - ==> Parameters: 11(Integer)
+2025-03-13 10:35:36.962 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.BookMapper.getById - <==      Total: 1
+2025-03-13 10:35:39.035 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:35:39.035 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:35:39.036 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:35:39.037 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.UserMapper.getById - ==>  Preparing: select * from user where id = ?
+2025-03-13 10:35:39.038 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.UserMapper.getById - ==> Parameters: 34(Integer)
+2025-03-13 10:35:39.038 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.UserMapper.getById - <==      Total: 1
+2025-03-13 10:35:40.197 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:35:40.197 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:35:40.198 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:35:40.199 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.UserMapper.getById - ==>  Preparing: select * from user where id = ?
+2025-03-13 10:35:40.200 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.UserMapper.getById - ==> Parameters: 37(Integer)
+2025-03-13 10:35:40.200 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.UserMapper.getById - <==      Total: 1
+2025-03-13 10:35:42.144 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:35:42.145 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:35:42.145 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:35:42.147 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.UserMapper.getById - ==>  Preparing: select * from user where id = ?
+2025-03-13 10:35:42.147 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.UserMapper.getById - ==> Parameters: 42(Integer)
+2025-03-13 10:35:42.148 [http-nio-9090-exec-10] DEBUG c.e.s.mapper.UserMapper.getById - <==      Total: 1
+2025-03-13 10:35:43.275 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:35:43.275 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:35:43.276 [http-nio-9090-exec-2] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:35:43.728 [http-nio-9090-exec-2] ERROR c.e.s.exception.ExceptionHandle - 系统错误
+org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.translateException(LettuceConnectionFactory.java:1849)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1780)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1582)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.lambda$getConnection$0(LettuceConnectionFactory.java:1562)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.doInLock(LettuceConnectionFactory.java:1523)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1559)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getSharedConnection(LettuceConnectionFactory.java:1245)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory.getConnection(LettuceConnectionFactory.java:1051)
+	at org.springframework.data.redis.core.RedisConnectionUtils.fetchConnection(RedisConnectionUtils.java:195)
+	at org.springframework.data.redis.core.RedisConnectionUtils.doGetConnection(RedisConnectionUtils.java:144)
+	at org.springframework.data.redis.core.RedisConnectionUtils.getConnection(RedisConnectionUtils.java:105)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:398)
+	at org.springframework.data.redis.core.RedisTemplate.execute(RedisTemplate.java:378)
+	at org.springframework.data.redis.core.AbstractOperations.execute(AbstractOperations.java:97)
+	at org.springframework.data.redis.core.DefaultValueOperations.setIfAbsent(DefaultValueOperations.java:299)
+	at com.example.springboot.service.impl.BorrowService.tryLock(BorrowService.java:261)
+	at com.example.springboot.service.impl.BorrowService.save(BorrowService.java:113)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:355)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:379)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.example.springboot.service.impl.BorrowService$$SpringCGLIB$$0.save(<generated>)
+	at com.example.springboot.controller.BorrowController.save(BorrowController.java:29)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to localhost/<unresolved>:6379
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:78)
+	at io.lettuce.core.RedisConnectionException.create(RedisConnectionException.java:56)
+	at io.lettuce.core.AbstractRedisClient.getConnection(AbstractRedisClient.java:350)
+	at io.lettuce.core.RedisClient.connect(RedisClient.java:215)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.lambda$getConnection$1(StandaloneConnectionProvider.java:112)
+	at java.base/java.util.Optional.orElseGet(Optional.java:364)
+	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:112)
+	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$ExceptionTranslatingConnectionProvider.getConnection(LettuceConnectionFactory.java:1778)
+	... 84 common frames omitted
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: localhost/127.0.0.1:6379
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:336)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:339)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2025-03-13 10:36:11.299 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:36:11.299 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:36:11.300 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:36:11.344 [http-nio-9090-exec-4] DEBUG c.e.s.m.UserMapper.getByUserName - ==>  Preparing: select * from user where username = ?
+2025-03-13 10:36:11.344 [http-nio-9090-exec-4] DEBUG c.e.s.m.UserMapper.getByUserName - ==> Parameters: 202411091314871279(String)
+2025-03-13 10:36:11.346 [http-nio-9090-exec-4] DEBUG c.e.s.m.UserMapper.getByUserName - <==      Total: 1
+2025-03-13 10:36:11.347 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.BookMapper.getByBookNo - ==>  Preparing: SELECT * FROM book WHERE bookNo = ?
+2025-03-13 10:36:11.347 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.BookMapper.getByBookNo - ==> Parameters: ISBN：9787559668837(String)
+2025-03-13 10:36:11.348 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.BookMapper.getByBookNo - <==      Total: 1
+2025-03-13 10:36:11.348 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.UserMapper.decrAccount - ==>  Preparing: UPDATE user SET account = account - ? WHERE username = ? AND account >= ?
+2025-03-13 10:36:11.348 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.UserMapper.decrAccount - ==> Parameters: 50(Integer), 202411091314871279(String), 50(Integer)
+2025-03-13 10:36:11.351 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.UserMapper.decrAccount - <==    Updates: 1
+2025-03-13 10:36:11.351 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.BookMapper.decrStock - ==>  Preparing: UPDATE book SET nums = nums - 1 WHERE bookNo = ? AND nums > 0
+2025-03-13 10:36:11.351 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.BookMapper.decrStock - ==> Parameters: ISBN：9787559668837(String)
+2025-03-13 10:36:11.351 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.BookMapper.decrStock - <==    Updates: 1
+2025-03-13 10:36:11.352 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.BorrowMapper.save - ==>  Preparing: insert into borrow (bookName, bookNo, userId, userName, userPhone, score,status,days,returnDate) values (?, ?, ?, ?, ?, ?,?,?,?)
+2025-03-13 10:36:11.352 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.BorrowMapper.save - ==> Parameters: 电锯人·搭档 电锯人漫画原著官方小说(String), ISBN：9787559668837(String), 202411091314871279(String), 帝骑(String), 14365423563(String), 50(Integer), 已借出(String), 1(Integer), 2025-03-14(LocalDate)
+2025-03-13 10:36:11.356 [http-nio-9090-exec-4] DEBUG c.e.s.mapper.BorrowMapper.save - <==    Updates: 1
+2025-03-13 10:36:11.356 [http-nio-9090-exec-4] INFO  c.e.s.service.impl.BorrowService - 异步保存借书记录：Borrow(id=null, bookName=电锯人·搭档 电锯人漫画原著官方小说, bookNo=ISBN：9787559668837, userId=202411091314871279, userName=帝骑, userPhone=14365423563, score=50, createtime=null, updatetime=null, status=已借出, days=1, returnDate=2025-03-14, note=null)
+2025-03-13 10:36:14.057 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:36:14.057 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:36:14.060 [http-nio-9090-exec-8] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:36:14.062 [http-nio-9090-exec-8] DEBUG c.e.s.m.B.listByCondition_COUNT - ==>  Preparing: SELECT count(0) FROM borrow
+2025-03-13 10:36:14.062 [http-nio-9090-exec-8] DEBUG c.e.s.m.B.listByCondition_COUNT - ==> Parameters: 
+2025-03-13 10:36:14.063 [http-nio-9090-exec-8] DEBUG c.e.s.m.B.listByCondition_COUNT - <==      Total: 1
+2025-03-13 10:36:14.063 [http-nio-9090-exec-8] DEBUG c.e.s.m.BorrowMapper.listByCondition - ==>  Preparing: select * from borrow LIMIT ?
+2025-03-13 10:36:14.063 [http-nio-9090-exec-8] DEBUG c.e.s.m.BorrowMapper.listByCondition - ==> Parameters: 10(Integer)
+2025-03-13 10:36:14.065 [http-nio-9090-exec-8] DEBUG c.e.s.m.BorrowMapper.listByCondition - <==      Total: 10
+2025-03-13 10:36:15.915 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - ==>  Preparing: select * from admin where id = ?
+2025-03-13 10:36:15.916 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - ==> Parameters: 57(Integer)
+2025-03-13 10:36:15.917 [http-nio-9090-exec-7] DEBUG c.e.s.mapper.AdminMapper.getById - <==      Total: 1
+2025-03-13 10:36:15.919 [http-nio-9090-exec-7] DEBUG c.e.s.m.B.listByCondition_COUNT - ==>  Preparing: SELECT count(0) FROM borrow
+2025-03-13 10:36:15.919 [http-nio-9090-exec-7] DEBUG c.e.s.m.B.listByCondition_COUNT - ==> Parameters: 
+2025-03-13 10:36:15.919 [http-nio-9090-exec-7] DEBUG c.e.s.m.B.listByCondition_COUNT - <==      Total: 1
+2025-03-13 10:36:15.920 [http-nio-9090-exec-7] DEBUG c.e.s.m.BorrowMapper.listByCondition - ==>  Preparing: select * from borrow LIMIT ?, ?
+2025-03-13 10:36:15.920 [http-nio-9090-exec-7] DEBUG c.e.s.m.BorrowMapper.listByCondition - ==> Parameters: 10(Long), 10(Integer)
+2025-03-13 10:36:15.921 [http-nio-9090-exec-7] DEBUG c.e.s.m.BorrowMapper.listByCondition - <==      Total: 3
+2025-03-13 10:37:00.107 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-03-13 10:37:00.111 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
